@@ -54,7 +54,8 @@ describe('Bar', () => {
     });
 
     describe('barAction', () => {
-        if('should return an object with property', () => {
+        
+        it('should return an object with property', () => {
             const mockReturn = "someMockReturn";
             foo.fooAction = () => mockReturn; 
 
@@ -64,7 +65,7 @@ describe('Bar', () => {
 
         // If you want to do some verifies or stuff with sinon, you can do this too:
 
-        f('should return an object with property', () => {
+        it('should return an object with property', () => {
             const mockReturn = "someMockReturn";
             const fooMock = sinon.mock(foo);
             fooMock.expects("fooAction").returns(mockReturn);
