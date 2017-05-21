@@ -1,25 +1,25 @@
 {
-  "name": "ts-mox",
-  "version": "1.0.0",
-  "description": "A module to provide a way to create actual mocks of objects like in Java.",
-  "main": "js/index.js",
-  "typings": "js/index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ivarvh/ts-mox.git"
-  },
-  "keywords": [
-    "typescript",
-    "mocking",
-    "testing"
-  ],
-  "author": "basaratali@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ivarvh/ts-mox/issues"
-  },
-  "homepage": "https://github.com/ivarvh/ts-mox#readme"
+    "name": "ts-mox",
+    "version": "1.0.2",
+    "description": "A module to provide a way to create actual mocks of objects like in Java.",
+    "main": "js/index.js",
+    "typings": "js/index",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ivarvh/ts-mox.git"
+    },
+    "keywords": [
+        "typescript",
+        "mocking",
+        "testing"
+    ],
+    "author": "basaratali@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ivarvh/ts-mox/issues"
+    },
+    "homepage": "https://github.com/ivarvh/ts-mox#readme"
 }
